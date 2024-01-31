@@ -63,8 +63,8 @@ function App() {
 	return (
 		<div className={styles.containetr}>
 			<div className={styles.header}>
-				{isWinner && 'Winner! - Refresh to try again'}
-				{isLoser && 'Nice Try - Refresh to try again'}
+				{isWinner && 'Winner! - Click Enter to try again'}
+				{isLoser && 'Nice Try - Click Enter to try again'}
 			</div>
 			<HangmanDrawing numberOfGuesses={incorrectLetters.length} />
 			<HangmanWord reveal={isLoser} guessedLetters={guessedLetters} wordToGuess={wordToGuess} />
