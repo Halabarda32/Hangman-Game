@@ -1,5 +1,7 @@
 # Hi there, and welcome on my Hangman Game React + TypeScript project!
 
+![ss_1](https://github.com/Halabarda32/Hangman-Game/assets/51050405/23f2f058-aced-45d2-9d61-2faf89ba5c4b)
+
 ## 💻Live💻
 
 [Hangman Game](https://master--beautiful-pithivier-8592bd.netlify.app)
