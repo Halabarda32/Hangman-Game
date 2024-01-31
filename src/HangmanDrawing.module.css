@@ -1,0 +1,32 @@
+.container {
+	position: relative;
+}
+
+.line {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 50px;
+	width: 10px;
+	background: black;
+}
+
+.bar {
+	height: 10px;
+	width: 200px;
+	background: black;
+	margin-left: 120px;
+}
+
+.pole {
+	height: 400px;
+	width: 10px;
+	background: black;
+	margin-left: 120px;
+}
+
+.base {
+	height: 10px;
+	width: 250px;
+	background: black;
+}

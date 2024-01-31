@@ -1,0 +1,28 @@
+.container {
+	display: flex;
+	gap: 0.25rem;
+	font-size: 6rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: monospace;
+}
+
+.underscore {
+	border-bottom: 0.1em solid black;
+}
+
+.letter.active {
+	visibility: visible;
+}
+
+.letter.inactive {
+	visibility: hidden;
+}
+
+.reveal.blue {
+	color: hsl(200, 100%, 50%);
+}
+
+.reveal.red {
+	color: tomato;
+}

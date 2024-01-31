@@ -1,0 +1,39 @@
+.btn {
+	width: 100%;
+	border: 3px solid black;
+	background: none;
+	aspect-ratio: 1 / 1;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	padding: 0.5rem;
+	font-weight: bold;
+	cursor: pointer;
+	color: black;
+}
+
+.btn.active {
+	background-color: hsl(200, 100%, 50%);
+	color: white;
+}
+
+.btn.inactive {
+	opacity: 0.3;
+}
+
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+	background-color: hsl(200, 100%, 75%);
+}
+
+.containerStyle {
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	margin-top: 1rem;
+	gap: 5px;
+}
+
+.rowStyle {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	gap: 5px;
+}
